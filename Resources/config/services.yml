@@ -1,0 +1,14 @@
+parameters:
+    checkdomain.telecash.class: Checkdomain\TeleCash\TeleCash
+
+services:
+    checkdomain.telecash.telecash:
+        class: %checkdomain.telecash.class%
+        arguments:
+            - %telecash_service_url%
+            - %telecash_api_user%
+            - %telecash_api_pass%
+            - %telecash_client_cert_path%
+            - %telecash_client_key_path%
+            - %telecash_client_key_pass_phrase%
+            - %telecash_server_cert%

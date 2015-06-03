@@ -1,0 +1,25 @@
+{
+    "name":         "checkdomain/tele-cash-bundle",
+    "description":  "Checkdomain/TeleCashBundle provides a simple API to TeleCash API ",
+    "keywords":     ["TeleCash", "symfony", "bundle"],
+    "type":         "library",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":     "Torsten Petersdorf",
+            "email":    "t.petersdorf@checkdomain.de",
+            "homepage": "http://checkdomain.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "checkdomain/telecash": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "Checkdomain\\TeleCashBundle": "" }
+    },
+    "target-dir": "Checkdomain/TeleCashBundle"
+}
