@@ -5,10 +5,10 @@ services:
     checkdomain.telecash.telecash:
         class: %checkdomain.telecash.class%
         arguments:
-            - %telecash_service_url%
-            - %telecash_api_user%
-            - %telecash_api_pass%
-            - %telecash_client_cert_path%
-            - %telecash_client_key_path%
-            - %telecash_client_key_pass_phrase%
-            - %telecash_server_cert%
+            - %checkdomain_tele_cash.service_url%
+            - %checkdomain_tele_cash.api.user%
+            - %checkdomain_tele_cash.api.pass%
+            - %checkdomain_tele_cash.client_cert_path%
+            - %checkdomain_tele_cash.client_key.path%
+            - %checkdomain_tele_cash.client_key.pass_phrase%
+            - %checkdomain_tele_cash.server_cert_path%
