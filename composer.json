@@ -19,7 +19,6 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Checkdomain\\TeleCashBundle": "" }
-    },
-    "target-dir": "Checkdomain/TeleCashBundle"
+        "psr-4": { "Checkdomain\\TeleCashBundle": "" }
+    }
 }
